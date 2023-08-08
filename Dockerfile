@@ -18,6 +18,8 @@ RUN chown -R node.node $(ls -a -I. -I.. -Inode_modules -I.nuxt)
 
 USER node
 
+ENV HOST 0.0.0.0
+
 RUN yarn build
 
 CMD [ "yarn", "start" ]
