@@ -25,9 +25,7 @@
       <h2>Gotenberg PDF Generation</h2>
       <br>
       <b>HTML</b>
-      <v-btn href="/api/view/portrait/html" target="blank">Portrait</v-btn>
-      &nbsp;
-      <v-btn href="/api/view/landscape/html" target="blank">Landscape</v-btn><br>
+      <v-btn href="/api/view/portrait/html" target="blank">Both</v-btn><br>
       <br>
       <b>PDF</b>
       <v-btn href="/api/view/portrait/pdf" target="blank">Portrait</v-btn>
